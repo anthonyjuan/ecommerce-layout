@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anthony Co.</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/stylesheet/custom.css">
+    <link rel="stylesheet" href="assets/stylesheet/bulma.css">
+    <link rel="stylesheet" href="assets/stylesheet/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/stylesheet/owl.theme.default.css">
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- menu atas -->
+      <nav class="nav">
+        <div class="container">
+          <div class="nav-left">
+          </div>
+          <div class="nav-center">
+            <a href="index.html" class="nav-item">
+              <b>Anthony Co.</b>
+            </a>
+          </div>
+
+          <div class="nav-right nav-menu">
+            <a class="nav-item">Log in</a>
+            <a href="cart.html" class="nav-item"><b>Cart (0)</b></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- menu bawah -->
+      <div class="container">
+        <nav class="level">
+            <div class="nav-left">
+              <a class="nav-item is-tab is-active">Terbaru</a>
+              <a id="brands" class="nav-item is-tab ">Brands</a>
+              <a id="atasan" class="nav-item is-tab ">Atasan</a>
+              <a id="bawahan" class="nav-item is-tab">Bawahan</a>
+              <a id="sepatu" class="nav-item is-tab ">sepatu</a>
+            </div>
+            <div class="level-right">
+              <div class="level-item">
+                <div class="field has-addons">
+                  <p class="control">
+                    <input class="input" type="text" placeholder="Search">
+                  </p>
+                  <p class="control">
+                    <a class="button">
+                      Search
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+          </div>
+        </nav>
+
+        <nav id="brands-sub" class="nav">
+          <div class="container">
+            <div class="nav-left">
+              <a class="nav-item">Viberg Boots</a>
+              <a class="nav-item">Bespoke Boots</a>
+              <a class="nav-item">Whites Boots</a>
+              <a class="nav-item">Oakstreet Boots Maker</a>
+              <a class="nav-item">Sagara</a>
+              <a class="nav-item">Redwings</a>
+            </div>
+          </div>
+        </nav>
+
+        <nav id="atasan-sub" class="nav">
+          <div class="container">
+            <div class="nav-left">
+              <a class="nav-item">Kaos</a>
+              <a class="nav-item">Kemeja</a>
+              <a class="nav-item">Denim</a>
+              <a class="nav-item">Jaket</a>
+              <a class="nav-item">Sweater</a>
+            </div>
+          </div>
+        </nav>
+
+        <nav id="bawahan-sub" class="nav">
+          <div class="container">
+            <div class="nav-left">
+              <a class="nav-item">Jeans</a>
+              <a class="nav-item">Celana Pendek</a>
+              <a class="nav-item">Daleman</a>
+            </div>
+          </div>
+        </nav>
+
+        <nav id="sepatu-sub" class="nav">
+          <div class="container">
+            <div class="nav-left">
+              <a class="nav-item">Boots</a>
+              <a class="nav-item">Sneakers</a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- <div class="box">
+          <article class="media">
+            <div class="media-content">
+              <a href="#">Viberg</a><br>
+              <a href="#">Oakstreet Boots Maker</a>
+            </div>
+          </article>
+        </div> -->
+      </div>
+
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <p class="title">CHECKOUT SATU LANGKAH</p>
+        <p class="subtilte">lengkapi kolom di bawah ini lalu klik Memesan Sekarang untuk menyelesaikan pesanan Anda!</p>
+        <a href="#">Sudah punya akun? klik disini untuk masuk</a>
+        <div class="columns is-desktop">
+          <div class="column is-half">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  ALAMAT TAGIHAN
+                </p>
+                <a class="card-header-icon">
+                  <span class="icon">
+                    <i class="fa fa-angle-down"></i>
+                  </span>
+                </a>
+              </header>
+              <div class="card-content">
+
+                <!-- field nama -->
+                <div class="field is-horizontal">
+                  <div class="field-body">
+                    <div class="field">
+                      <label class="label">Nama Depan</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Nama depan">
+                      </p>
+                    </div>
+                    <div class="field">
+                      <label class="label">Nama belakang</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Nama belakang">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- field email and telepon -->
+                <div class="field is-horizontal">
+                  <div class="field-body">
+                    <div class="field">
+                      <label class="label">Email</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="email" placeholder="email">
+                      </p>
+                    </div>
+                    <div class="field">
+                      <label class="label">No Telepon</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Telepon">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- field alamat -->
+                <div class="field is-horizontal">
+                  <div class="field-body">
+                    <div class="field">
+                      <label class="label">Alamat</label>
+                      <div class="control">
+                        <input class="input" type="text" placeholder="Alamat">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- field negara dan kota  -->
+                <div class="field is-horizontal">
+                  <div class="field-body">
+                    <div class="field">
+                      <label class="label">Negara</label>
+                      <p class="control is-expanded">
+                        <span class="select">
+                          <select>
+                            <option>Select dropdown</option>
+                            <option>With options</option>
+                          </select>
+                        </span>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <label class="label">Kota</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Kota">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- field kode pos dan provinsi  -->
+                <div class="field is-horizontal">
+                  <div class="field-body">
+                    <div class="field">
+                      <label class="label">Kode Pos</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Kode Pos">
+                      </p>
+                    </div>
+                    <div class="field">
+                      <label class="label">Provinsi</label>
+                      <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Provinsi">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Metode pembayaran -->
+
+          <div class="column is-half">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  METODE PEMBAYARAN
+                </p>
+                <a class="card-header-icon">
+                  <span class="icon">
+                    <i class="fa fa-angle-down"></i>
+                  </span>
+                </a>
+              </header>
+              <div class="card-content">
+                  <p class="control">
+                    <label class="checkbox">
+                      <input type="checkbox">
+                      Kartu Kredit - VISA
+                    </label>
+                  </p>
+                  <p class="control">
+                    <label class="checkbox">
+                      <input type="checkbox">
+                      Bank Transfer
+                    </label>
+                  </p>
+              </div>
+
+            </div>
+            <br>
+            <button type="button" class="button is-warning">BUAT PESANAN</button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+          </p>
+          <p>
+            <a class="icon" href="https://github.com/jgthms/bulma">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
